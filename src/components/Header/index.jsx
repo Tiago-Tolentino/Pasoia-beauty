@@ -1,9 +1,10 @@
-
+import "./header.scss"
+import logo from "../../images/logo passoia.png"
 
 function Header() {
     return (
         <header>
-            <img src="" alt="logo marca da pagina" />
+            <img src={logo} alt="logo marca da pagina" />
             <ul>
                 <li>LOOKS</li>
                 <li>LANCAMENTOS</li>
